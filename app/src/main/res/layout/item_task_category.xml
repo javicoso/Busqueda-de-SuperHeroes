@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="90dp"
+    app:cardBackgroundColor="@color/toDoApp4"
+    app:cardCornerRadius="16dp"
+    android:layout_marginRight="12dp"
+    android:id="@+id/viewContainer"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+
+       >
+
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            tools:text="Prueba"
+            android:textAllCaps="true">
+
+        </TextView>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            tools:background="@color/white">
+
+        </View>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

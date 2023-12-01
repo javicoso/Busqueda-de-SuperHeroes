@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    tools:cardBackgroundColor="@color/superHeroApp1"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    android:layout_marginBottom="20dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivSuperhero"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom"
+            android:background="@color/superHeroApp3">
+
+            <TextView
+                android:id="@+id/tvSuperheroName"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:textSize="20sp"
+                tools:text="SUSCRIBETE"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold">
+            </TextView>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

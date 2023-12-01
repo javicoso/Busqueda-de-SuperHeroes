@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AndroidPrimerProyecto</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="age">Edad</string>
+    <string name="calcule">Calcular</string>
+    <string name="result">Tu resultado</string>
+    <string name="recalculate">Re-Calcular</string>
+
+    <string name="error">Error</string>
+
+    <string name="title_bajo_peso">Bajo peso</string>
+    <string name="description_bajo_peso">Estas por debajo de lo óptimo para tu peso y tamaño</string>
+
+    <string name="title_normal_peso">Peso normal</string>
+    <string name="description_normal">Estas en lo óptimo para tu peso y tamaño</string>
+
+    <string name="title_sobrepeso">Sobrepeso</string>
+    <string name="description_sobrepeso">Estas muy por encima de lo óptimo para tu peso y tamaño</string>
+
+
+    <string name="title_Obesidad">Obeso</string>
+    <string name="description_Obesidad">Tienes Obesidad morbida</string>
+
+
+    <string name="todo_title">Bienvenidos a CRICO-USUARIOS</string>
+    <string name="todo_title_categorias">Categorías</string>
+    <string name="todo_task">Tareas</string>
+    <string name="todo_dialog_add_task">Añade la Tarea</string>
+    <string name="todo_dialog_categories_Bussines">Negocios</string>
+    <string name="todo_dialog_categories_Personal">Personal</string>
+    <string name="todo_dialog_categories_Other">Otros</string>
+    <string name="todo_dialog_btn_add_create_Task">Crear Tarea</string>
+
+
+</resources>
